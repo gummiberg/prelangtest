@@ -1,4 +1,5 @@
 ActiveAdmin.register Post do
+  permit_params :title, :content, :content, :link
 
   
   # See permitted parameters documentation:
